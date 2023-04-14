@@ -11,6 +11,7 @@ from utils.DateTimeUtils import DateTimeUtils
 
 
 class Main:
+    
     def main(self):
         api_utills = ApiUtil
         deviceId = "1"
