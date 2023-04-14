@@ -15,7 +15,7 @@ class Main:
         api_utills = ApiUtil
         deviceId = "1"
         while True:
-            get_api_url = "http://3.97.194.206:30080/api/v1/allJourneyRefrigeratorData"
+            get_api_url = "http://3.97.194.206:30080/api/v1/journeyRefrigeratorData"
             journyList = api_utills.get_req(self,get_api_url)
             listLength = len(journyList)
             jrId = 0
